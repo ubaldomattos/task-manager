@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: task-manager
+
+  datasource:
+    # A URL é montada em DatabaseConfig a partir de taskmanager.database.path.
+    hikari:
+      # O SQLite aceita uma escrita por vez; uma conexão evita "database is locked".
+      maximum-pool-size: 1
+      pool-name: sqlite-pool
+
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    open-in-view: false
+    hibernate:
+      # O esquema é criado e evoluído pelo Flyway (src/main/resources/db/migration).
+      ddl-auto: none
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+server:
+  # Por padrão a aplicação atende apenas esta máquina, pois não possui autenticação.
+  address: ${TASKMANAGER_ADDRESS:127.0.0.1}
+  port: ${TASKMANAGER_PORT:8080}
+  error:
+    include-stacktrace: never
+
+taskmanager:
+  database:
+    # Caminho do arquivo SQLite. Relativo ao diretório onde a aplicação é executada.
+    path: ${TASKMANAGER_DB_PATH:./data/taskmanager.db}
+
+logging:
+  level:
+    root: INFO
+    br.com.taskmanager: INFO
