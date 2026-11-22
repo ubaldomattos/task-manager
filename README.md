@@ -1,6 +1,6 @@
 # Task Manager
 
-Veja como usar o task-manager: [como_usar_o_task-manager.mp4](docs/videos/como_usar_o_task-manager.mp4)
+Veja como usar o task-manager: [como_usar_o_task-manager.mp4](docs/videos/como_usar_o_task-manager.mp4) (clique no link e em seguida em "View raw")
 
 Aplicativo web para controle pessoal de tarefas, organizado por um calendário mensal. Cada tarefa pertence a um dia; ao clicar em um dia, você vê, cadastra, edita, conclui e exclui as tarefas daquela data.
 

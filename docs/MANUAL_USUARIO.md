@@ -1,6 +1,6 @@
 # Manual do Usuário
 
-Veja como usar o task-manager: [como_usar_o_task-manager.mp4](videos/como_usar_o_task-manager.mp4)
+Veja como usar o task-manager: [como_usar_o_task-manager.mp4](videos/como_usar_o_task-manager.mp4) (clique no link e em seguida em "View raw")
 
 O Task Manager ajuda você a organizar suas tarefas por dia. Este manual mostra como usar cada parte da tela.
 
