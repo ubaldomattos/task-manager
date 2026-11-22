@@ -1,5 +1,7 @@
 # Manual do Usuário
 
+Veja como usar o task-manager: [como_usar_o_task-manager.mp4](videos/como_usar_o_task-manager.mp4)
+
 O Task Manager ajuda você a organizar suas tarefas por dia. Este manual mostra como usar cada parte da tela.
 
 Para instalar e iniciar a aplicação, consulte o [Manual de Instalação](INSTALACAO.md). Com ela em execução, abra <http://localhost:8080> no navegador.

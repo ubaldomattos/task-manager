@@ -1,5 +1,7 @@
 # Task Manager
 
+Veja como usar o task-manager: [como_usar_o_task-manager.mp4](docs/videos/como_usar_o_task-manager.mp4)
+
 Aplicativo web para controle pessoal de tarefas, organizado por um calendário mensal. Cada tarefa pertence a um dia; ao clicar em um dia, você vê, cadastra, edita, conclui e exclui as tarefas daquela data.
 
 A aplicação é um único arquivo executável Java. O banco de dados (SQLite) é criado automaticamente na primeira execução e não exige a instalação de nenhum servidor de banco de dados.
